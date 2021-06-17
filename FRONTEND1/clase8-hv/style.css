@@ -1,0 +1,61 @@
+/* formato */
+
+* {
+    margin-top: 0px;
+    font-family: 'Staatliches', cursive;
+    font-style: oblique;
+    color: white;
+}
+
+/* header*/
+
+h1 {
+    background-image: url(../clase8-hv/img/galaxia.webp);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 80px;
+}
+
+header p{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+header [href]{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+
+
+/* body */
+
+body {
+        background-image: url(../clase8-hv/img/fondo.jpg);
+        background-position-y: 1cm;
+        background-size: cover;
+        background-attachment:scroll;
+}
+
+/* main */
+
+.tonyfoto {
+    float:right;
+    margin-right: 120px;
+}
+
+.rectangulo {
+    font-size: 35px;
+    float: left;
+    width: 400px;
+    height: 200px;
+    border: 2px solid white;
+    background: tomato;
+    opacity: 0.9;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+
+
