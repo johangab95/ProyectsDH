@@ -1,0 +1,150 @@
+* { 
+margin:  0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+/*header*/
+#bg1 { 
+    background-color: black;
+    color: #F3F3F3;
+}
+
+#front {
+    color: black;
+}
+
+nav {
+    background-color:#F0A83E ;
+    color: #F3F3F3;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+} 
+
+nav ul li{
+    width: 5rem;
+    color: #F3F3F3;
+    display: inline-block;
+    list-style: none;
+    text-align: center; 
+}
+
+/*body*/
+
+#contain {
+    background-image: url(../clase12-petshop.flex/img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 28rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    padding: 5rem;
+}
+
+.wl1 {
+    background-color: #F3F3F3;
+    border-radius: 0.3rem;
+    color: #3C2313;
+    padding: 1rem;
+    Height: 3.374rem;
+    Width: 22.81rem;
+    margin: 1rem 0rem;
+}
+.wl2 {
+    color: #3C2313;;
+    margin: 1rem 0rem;
+}
+.wl3 {
+    background-color: #F0A83E;
+    border-radius: 0.3rem;
+    color: #F3F3F3;
+    Width: 8.8rem;
+    Height: 3rem;
+    margin: 1rem auto;
+}
+
+.petcenter {
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.petcenter p{
+    padding: 0.5rem;
+    color: #3C2313;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.petcenter div ul{
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+}
+
+#product {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.product {
+    background-color: #FBFAF6;
+    margin:  1rem;
+    color:  #3C2313;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    margin: 1rem auto;
+    text-align: center;
+    width: 50vh;
+    margin-top: 1rem;
+    color: #3C2313;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+input{
+    background-color: #3C2313;
+    color: #F3F3F3;
+    height: 3rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.reset {
+    background-color: #8A8787;
+    color: #F3F3F3;
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 2rem ;
+    font-weight: 400;
+}
+
+.submit {
+    background-color: #F0A83E;
+    color: #F3F3F3;
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 2rem ;
+    font-weight: 400;
+}
+
+/*main*/
+
+/*footer*/
+
+

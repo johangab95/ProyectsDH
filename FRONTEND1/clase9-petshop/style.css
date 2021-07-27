@@ -1,0 +1,58 @@
+* { 
+margin: auto;
+padding: 0px;
+box-sizing: border-box;
+}
+
+/*header*/
+
+header {
+    position: relative;
+    width: 1024px;
+    color: #F3F3F3;
+}
+
+#bg1 {
+    display: flex;
+    background-color:  #222222;
+}
+
+nav {
+    height: 62px;
+    display: flex;
+    background-color: #F0A83E;
+}
+
+/*body*/
+
+
+.principal {
+    width: 1024px;
+    height: 409px;
+}
+
+.principal div{
+    align-content: flex-end;
+    display: flex;
+    flex-flow: column wrap;
+    Height: 54px;
+    Width: 365px;
+}
+#welcome1 {
+    color:#3C2313;
+
+}
+
+#welcome2 {
+    color:#3C2313;
+
+}
+
+#welcome3 {
+    color: #F3F3F3;
+}
+/*main*/
+
+/*footer*/
+
+

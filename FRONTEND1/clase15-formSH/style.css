@@ -1,0 +1,68 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header div{
+    background-color:  #1CD1B0;
+    padding: 1.5vh;
+}
+
+header section{
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: 1.5vh;
+}
+
+header section span{
+    position: absolute;
+    padding: 3vh 0vh;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    font-size: 4.5rem;
+    right: 11rem;
+    padding: 12vh 0vh 8vh;
+}
+
+main {
+    display: block;
+    text-align: center;
+}
+
+form input{
+    width: 72vh;
+    height: 5vh;
+    border: solid 0.02rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+button{
+    background-color: #1CD1B0;
+    font-size: 1.5rem;
+    height: 5vh;
+    width: 75vh;
+    border-radius: 23.011px;
+}
+
+footer {
+    position: relative;
+    top: 18vh;
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: center;
+}
+
+div .contact {
+}
